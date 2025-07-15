@@ -125,7 +125,7 @@ body{
     box-shadow: -3px 30px 30px rgb(255, 0, 0);
 }
 
-@media  screen and (max-width:300px) {
+@media  screen and (max-width:290px) {
 
   .b{
     width: 80px;
@@ -168,3 +168,50 @@ body{
 
  }
 }
+
+
+
+@media  screen and (max-width:400px) {
+
+  .b{
+    width: 80px;
+    height: 80px;
+
+  }
+  .b2{
+    width: 80px;
+    height: 80px;
+
+  }
+
+  #h{
+    font-size: xx-large;
+  }
+  .main{
+    position: absolute;
+    width: 80vw;
+    height: 20vh;
+  }
+  .m2{
+    position: absolute;
+    width: 80vw;
+    height: 20vh;
+  }
+  body{
+    position: fixed;
+
+  }
+ .re{
+    width: 80px;
+    height: 30px;
+    font-size: large;
+ }
+
+ .re:hover{
+    width: 70px;
+    height: 20px;
+    font-size: smaller;
+
+ }
+}
+
