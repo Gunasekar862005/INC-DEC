@@ -5,7 +5,7 @@ function aDd(){
 }
 aDd();
 function sUb(){
-    document.getElementById("h").innerHTML= a--;
+    document.getElementById("h").innerHTML= --a;
 
 }
 sUb();
