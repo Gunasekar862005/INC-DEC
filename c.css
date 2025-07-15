@@ -1,0 +1,170 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(img.jpg);
+    position: relative;
+}
+
+.m2{
+    position: absolute;
+    background: white;
+    width: 40vw;
+    height: 40vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    filter: opacity(0.5);
+    border-radius: 20px;
+    box-shadow: -2px 2px 10px white;
+
+}
+
+.main{
+    position: absolute;
+    width: 40vw;
+    height: 40vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#h{
+    font-size: 200px;
+
+}
+
+.b{
+    width: 100px;
+    height: 100px;
+    font-size: xx-large;
+    font-weight: 1000;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    border: 0px solid;
+    box-shadow: -2px 2px 10px white;
+    transition: 0.5s ease-in;
+
+}
+
+.but{
+    width: 40vw;
+    height: 10vh;
+    position: absolute;
+    bottom: 10vh;
+    left: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    transition: 0.5s ease-in;
+
+
+}
+
+.b:hover{
+    background-color: white;
+    color: rgb(16, 107, 24);
+    border: 2px solid rgb(16, 107, 24);
+    width: 80px;
+    height: 80px;
+    box-shadow: -3px 30px 30px rgb(16, 107, 24);
+}
+
+.re{
+    position: absolute;
+    top: 5vw;
+    right: 5vw;
+    box-shadow: -2px 2px 20px white;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: 0px solid;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: 800;
+    transition: 0.5s ease-in-out;
+}
+
+.re:hover{
+    background-color: white;
+    color: black;
+    border: 0px solid ;
+    width: 90px;
+    height: 40px;
+    box-shadow: -3px 10px 30px black;
+}
+
+.b2{
+    width: 100px;
+    height: 100px;
+    font-size: xx-large;
+    font-weight: 1000;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    border: 0px solid;
+    box-shadow: -2px 2px 10px white;
+    transition: 0.5s ease-in;
+
+}
+
+
+.b2:hover{
+    background-color: white;
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+    width: 80px;
+    height: 80px;
+    box-shadow: -3px 30px 30px rgb(255, 0, 0);
+}
+
+@media  screen and (max-width:320px) {
+
+  .b{
+    width: 80px;
+    height: 80px;
+
+  }
+  .b2{
+    width: 80px;
+    height: 80px;
+
+  }
+
+  #h{
+    font-size: xx-large;
+  }
+  .main{
+    position: absolute;
+    width: 80vw;
+    height: 20vh;
+  }
+  .m2{
+    position: absolute;
+    width: 80vw;
+    height: 20vh;
+  }
+  body{
+    position: fixed;
+
+  }
+ .re{
+    width: 80px;
+    height: 30px;
+    font-size: large;
+ }
+
+ .re:hover{
+    width: 70px;
+    height: 20px;
+    font-size: smaller;
+
+ }
+}
